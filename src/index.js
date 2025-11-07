@@ -13,4 +13,9 @@ function reverseString(string) {
   return reverseStringArr.join("");
 }
 
-export default { capitalize, reverseString };
+const calculator = {
+  add: (a, b) => a + b,
+  multiply: (a, b) => a * b,
+  divide: (a, b) => a / b,
+};
+export default { capitalize, reverseString, calculator };

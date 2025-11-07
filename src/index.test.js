@@ -15,3 +15,23 @@ test("Reverse String", () => {
 test("Reverse String", () => {
   expect(obj.reverseString("world")).toBe("dlrow");
 });
+
+test("Add 2 numbers", () => {
+  expect(obj.calculator.add(3, 5)).toBe(8);
+});
+
+test("Add 2 numbers", () => {
+  expect(obj.calculator.add(9, 5)).toBe(14);
+});
+
+test("Multiply 2 numbers", () => {
+  expect(obj.calculator.multiply(20, 5)).toBe(100);
+});
+
+test("Divide 2 numbers", () => {
+  expect(obj.calculator.divide(20, 5)).toBe(4);
+});
+
+test("Divide 2 numbers", () => {
+  expect(obj.calculator.divide(20, 4)).toBe(5);
+});
