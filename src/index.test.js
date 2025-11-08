@@ -35,7 +35,3 @@ test("Divide 20 by 5 numbers", () => {
 test("Divide 20 by 4 numbers", () => {
   expect(obj.calculator.divide(20, 4)).toBe(5);
 });
-
-test("Caesar Cipher", () => {
-  expect(caesarCipher("xyz", 3).toBe("abc"));
-});

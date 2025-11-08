@@ -18,4 +18,5 @@ const calculator = {
   multiply: (a, b) => a * b,
   divide: (a, b) => a / b,
 };
+
 export default { capitalize, reverseString, calculator };
