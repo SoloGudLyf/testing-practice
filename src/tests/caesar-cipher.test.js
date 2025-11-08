@@ -1,4 +1,4 @@
-import ccObj from "./caesar-cipher.js";
+import ccObj from "../caesar-cipher.js";
 
 test("Caesar Cipher 'xyz' to be 'abc'", () => {
   expect(ccObj.caesarCipher("xyz", 3)).toBe("abc");

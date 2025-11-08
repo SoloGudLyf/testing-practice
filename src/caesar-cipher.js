@@ -99,8 +99,6 @@ function caesarCipher(string, shift) {
   const caesarCipherArr = [];
   for (const element of string) {
     if (punctuations.includes(element) || element.trim() === "") {
-      console.log("hi");
-
       caesarCipherArr.push(element);
     } else if (element === element.toLowerCase()) {
       const letterIndex = shiftedlowerCase.findIndex(

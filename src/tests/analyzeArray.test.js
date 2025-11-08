@@ -1,4 +1,4 @@
-import analyzeArray from "./analyzeArray";
+import analyzeArray from "../analyzeArray";
 
 test("get analyze array average", () => {
   expect(analyzeArray([1, 8, 3, 4, 2, 6]).average).toBe(4);

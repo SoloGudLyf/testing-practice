@@ -1,15 +1,11 @@
+/* eslint-disable no-undef */
 const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: {
     app: "./src/index.js",
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      title: "Production",
-    }),
-  ],
+  plugins: [],
   output: {
     filename: "main.bundle.js",
     path: path.resolve(__dirname, "dist"),
